@@ -1,0 +1,25 @@
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="4/28/2013 7:17:37 AM">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weixin/MainWindow.cs">
+    <Files>
+      <File FileName="Weixin/Main.cs" Line="1" Column="1" />
+      <File FileName="Weixin/MainWindowController.cs" Line="1" Column="1" />
+      <File FileName="Weixin/MainWindow.designer.cs" Line="1" Column="1" />
+      <File FileName="Weixin/MainWindow.cs" Line="20" Column="27" />
+      <File FileName="Weixin/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Weixin" expanded="True">
+            <Node name="MainWindow.cs" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
