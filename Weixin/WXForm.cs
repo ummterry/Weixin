@@ -55,6 +55,7 @@ namespace WX
         private void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             this.timer.Start();
+            this.Text = "微信PC版";
         }
 
         private void WXForm_Resize(object sender, EventArgs e)
@@ -65,12 +66,6 @@ namespace WX
             }
         }
 
-        private void notifyIcon_Click(object sender, EventArgs e)
-        {
-            this.Show();
-            this.WindowState = FormWindowState.Normal;
-            this.Activate();
-        }
 
         private void WXForm_Activated(object sender, EventArgs e)
         {
@@ -83,5 +78,36 @@ namespace WX
         {
             this.isUnfocused = true;
         }
+
+        private void hideToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.showWX();
+        }
+
+        private void showWX()
+        {
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
+            this.Activate();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            (new AboutBox()).ShowDialog();
+        }
+
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void notifyIcon_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                this.showWX();
+            }
+        }
+
     }
 }
