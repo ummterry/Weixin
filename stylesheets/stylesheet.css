@@ -314,6 +314,46 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+
+.banner{width: 550px;height: 360px;float: right;position: relative;overflow: hidden;}
+.banner li img{position: relative;left: 40px;}
+
+.advantage li{width: 210px;height: 165px;float: left;color: #fff;font-family: "Microsoft Yahei";position: relative;}
+.advantage strong{font-size: 30px;position: relative;top: 20px;left: 20px;font-weight: normal;line-height: 26px;*line-height: 32px;}
+.advantage p{width: 200px;position: relative;top: 35px;left: 20px;line-height: 16px;font-family: "微软雅黑"}
+.ad_a{background: #5eb0de;margin-right: 70px;}
+.ad_a:hover{
+  background: #4289B1;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ad_b{background: #86cad7;margin-right: 70px;}
+.ad_b:hover{
+  background: #71AAB5;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ad_c{background: #a8c194;}
+.ad_c:hover{
+  background: #87AA7A;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+
+.details{float:left;text-align: center;width: 200px;color: #94a9b4;}
+.details a{color: #94a9b4;}
+
+.warp{width: 800px;margin: 0 auto;padding:35px 0 40px;}
+
+
 /* #Media Queries
 ================================================== */
 
@@ -347,42 +387,3 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
 
-
-
-.banner{width: 550px;height: 360px;float: right;position: relative;overflow: hidden;}
-.banner li img{position: relative;left: 40px;}
-
-.advantage{height: 170px}
-.advantage li{width: 210px;height: 165px;float: left;color: #fff;font-family: "Microsoft Yahei";position: relative;}
-.advantage strong{font-size: 30px;position: relative;top: 20px;left: 20px;font-weight: normal;line-height: 26px;*line-height: 32px;}
-.advantage p{width: 200px;position: relative;top: 35px;left: 20px;line-height: 16px;font-family: "微软雅黑"}
-.ad_a{background: #5eb0de;}
-.ad_a:hover{
-  background: #4289B1;
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.ad_b{background: #86cad7;margin-left: 70px;}
-.ad_b:hover{
-  background: #71AAB5;
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.ad_c{background: #a8c194;margin-left: 70px;}
-.ad_c:hover{
-  background: #87AA7A;
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-
-.details{float:left;text-align: center;width: 200px;color: #94a9b4;}
-.details a{color: #94a9b4;}
-
-.warp{width: 800px;margin: 0 auto;padding:35px 0 40px;}
